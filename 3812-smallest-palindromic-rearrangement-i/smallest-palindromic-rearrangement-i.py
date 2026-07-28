@@ -10,7 +10,6 @@ class Solution(object):
         n = len(s)
         half = n // 2
 
-        # Sort the first half
         left = sorted(s[:half])
 
         if n % 2 == 0:

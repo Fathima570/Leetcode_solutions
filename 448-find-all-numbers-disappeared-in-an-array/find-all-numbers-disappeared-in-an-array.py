@@ -4,9 +4,10 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[int]
         """
+        n=len(nums)
         s=set(nums)
         l=[]
-        for i in range(1, len(nums) + 1):
+        for i in range(1,n+1):
             if i not in s:
                 l.append(i)
         return l
